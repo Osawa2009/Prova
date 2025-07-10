@@ -1,0 +1,105 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Flexbox nos serviços */
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+img {
+    border-radius: 5%;
+}
+
+.produtos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produto {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
